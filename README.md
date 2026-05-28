@@ -17,7 +17,7 @@ In order to gain this new functionality, you'll have to modify your [original](h
 - If two `Book` instances both touch the same class variable, what happens?  Why?
 - What should `check_out` do if the book is already checked out?
 
-## Bonus
+## Stretch
 - Add a `@classmethod` called `currently_checked_out()` that returns the class-level list of checked-out books.
 - Add a method `who_has_it()` that returns the current borrower (or `None` if the book is available).
 
